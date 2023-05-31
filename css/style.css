@@ -143,3 +143,37 @@ main {
 .price {
     color: red;
 }
+
+footer {
+    background-color: #1a1a1a;
+    width: 100%;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  footer ul a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0 .2rem;
+    font-size: 15px;
+  }
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+footer .social-icon i {
+    font-size: 20px;
+    padding: 0 .2rem
+}
