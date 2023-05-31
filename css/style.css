@@ -16,11 +16,14 @@ nav {
   z-index: 1;
 }
 
+.container {
+    width: 980px;
+    display: flex;
+}
+
 nav ul {
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
   }
   
   nav ul a {
@@ -29,3 +32,13 @@ nav ul {
     text-decoration: none;
     color: white;
   }
+
+nav ul i {
+    display: inline-block;
+    padding: 1rem 1rem;
+    text-align: right;
+}
+
+.logo {
+    max-height: 30px;
+}
