@@ -21,7 +21,7 @@ nav {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 980px;
     width: 100%;
     margin: auto;
     align-items: center;
@@ -39,8 +39,7 @@ nav ul {
     color: white;
   }
 
-nav ul i {
-    display: inline-block;
+.icon {
     text-align: right;
 }
 
@@ -62,8 +61,11 @@ nav ul i {
     min-width: 150px;
 }
 
-.icon{
+nav .icon i {
     text-align: right;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0 .2rem;
 }
 
 main {
@@ -73,12 +75,16 @@ main {
   .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .col {
+    flex-basis: 33.3%;
   }
 
   .product-card {
     background-color: rgb(168, 164, 164);
     height: 600px;
-    border: 2px solid rgb(124, 117, 117);
     display: block;
     position: relative;
   }
@@ -133,3 +139,7 @@ main {
     justify-content: center;
     padding: 1rem;
   }
+
+.price {
+    color: red;
+}
