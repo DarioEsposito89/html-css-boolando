@@ -21,7 +21,7 @@ nav {
 }
 
 .container {
-    max-width: 980px;
+    max-width: 1400px;
     width: 100%;
     margin: auto;
     align-items: center;
@@ -138,6 +138,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    position: absolute;
   }
 
 .price {
@@ -181,3 +182,16 @@ footer .social-icon i {
     font-size: 20px;
     padding: 0 .2rem
 }
+
+ .hover-heart {
+    background-color: white;
+    font-size: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .favourite:hover {
+    display: none;
+  }
