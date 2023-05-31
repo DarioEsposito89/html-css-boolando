@@ -111,3 +111,37 @@ main {
   .offer {
     background-color: #ff0000;
   }
+
+  .top-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .top-overlay .discount {
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top-overlay .favourite {
+    background-color: rgb(168, 149, 149);
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
