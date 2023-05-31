@@ -47,9 +47,6 @@ nav ul {
     display:flex;
     justify-content: center;
     flex-grow: 1;
-    /* background-image: url(../imgs/boolean-logo.png);
-    background-size: contain;
-    background-repeat: no-repeat; */
     padding: 1rem 1rem;
 }
 
@@ -76,11 +73,14 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 70px;
   }
 
   .col {
     flex-basis: 33.3%;
+    padding: 0 .5rem;
   }
+
 
   .product-card {
     background-color: rgb(168, 164, 164);
@@ -154,21 +154,25 @@ footer ul {
     list-style: none;
     display: flex;
   }
+
   
   footer ul a {
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 0 .2rem;
+    /* padding: 0 .5rem; */
     font-size: 15px;
   }
 
 footer .container {
     display: flex;
     justify-content: space-between;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     font-size: 12px;
+}
+
+.social-icon {
     line-height: 20px;
 }
 
