@@ -72,7 +72,7 @@ main {
   .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 1;
     padding-bottom: 70px;
   }
 
@@ -99,7 +99,7 @@ main {
   }
 
 
-  .hover-img:hover {
+  img:hover {
     display: none;
   }
 
