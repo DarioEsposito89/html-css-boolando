@@ -99,7 +99,7 @@ main {
   }
 
 
-  img:hover {
+  .hover-img:hover {
     display: none;
   }
 
